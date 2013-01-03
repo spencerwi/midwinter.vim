@@ -68,7 +68,7 @@ hi Function guifg=#7dabfa guibg=NONE guisp=NONE gui=bold ctermfg=111 ctermbg=NON
 hi FoldColumn guifg=#9ab1e0 guibg=NONE guisp=NONE gui=bold ctermfg=110 ctermbg=NONE cterm=bold
 hi PreProc guifg=#6e92ff guibg=NONE guisp=NONE gui=NONE ctermfg=69 ctermbg=NONE cterm=NONE
 "hi EnumerationName -- no settings --
-hi Visual guifg=#208b72 guibg=#ffe5f7 guisp=#ffe5f7 gui=NONE ctermfg=29 ctermbg=225 cterm=NONE
+hi Visual guifg=#eeeeee guibg=#00005f guisp=#00005f gui=NONE ctermfg=15 ctermbg=25 cterm=NONE
 hi MoreMsg guifg=#208b72 guibg=NONE guisp=NONE gui=bold ctermfg=29 ctermbg=NONE cterm=bold
 "hi SpellCap -- no settings --
 hi VertSplit guifg=#000000 guibg=#998993 guisp=#998993 gui=NONE ctermfg=NONE ctermbg=246 cterm=NONE
@@ -86,7 +86,7 @@ hi Constant guifg=#b8c6cd guibg=NONE guisp=NONE gui=bold ctermfg=152 ctermbg=NON
 hi Tag guifg=#51cdcd guibg=NONE guisp=NONE gui=bold ctermfg=80 ctermbg=NONE cterm=bold
 hi String guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 hi PMenuThumb guifg=NONE guibg=#5a645e guisp=#5a645e gui=bold ctermfg=NONE ctermbg=241 cterm=bold
-"hi MatchParen -- no settings --
+hi MatchParen guifg=#eeeeee guibg=#00005f guisp=#00005f gui=NONE ctermfg=15 ctermbg=24 cterm=NONE
 "hi LocalVariable -- no settings --
 hi Repeat guifg=#36eec3 guibg=NONE guisp=NONE gui=NONE ctermfg=86 ctermbg=NONE cterm=NONE
 "hi SpellBad -- no settings --
@@ -148,13 +148,13 @@ hi cinclude guifg=#ffe5f7 guibg=NONE guisp=NONE gui=NONE ctermfg=225 ctermbg=NON
 hi menu guifg=#000000 guibg=#beabb8 guisp=#beabb8 gui=NONE ctermfg=NONE ctermbg=7 cterm=NONE
 hi scrollbar guifg=#a998a3 guibg=#a998a3 guisp=#a998a3 gui=NONE ctermfg=248 ctermbg=248 cterm=NONE
 "hi semicolon -- no settings --
-hi htmlitalic guifg=#000000 guibg=#78eea0 guisp=#78eea0 gui=NONE ctermfg=NONE ctermbg=121 cterm=NONE
+hi htmlitalic gui=italic cterm=italic
 hi htmlboldunderlineitalic guifg=#96b7e6 guibg=#000000 guisp=#000000 gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
 hi htmlbolditalic guifg=#000000 guibg=#96b7e6 guisp=#96b7e6 gui=NONE ctermfg=NONE ctermbg=110 cterm=NONE
 hi htmlunderlineitalic guifg=#78eea0 guibg=#000000 guisp=#000000 gui=NONE ctermfg=121 ctermbg=NONE cterm=NONE
-hi htmlbold guifg=#000000 guibg=#d2fab5 guisp=#d2fab5 gui=NONE ctermfg=NONE ctermbg=193 cterm=NONE
+hi htmlbold guifg=#0087d7 guibg=NONE guisp=#d2fab5 gui=bold ctermfg=75 ctermbg=NONE cterm=bold
 hi htmlboldunderline guifg=#d2fab5 guibg=#000000 guisp=#000000 gui=NONE ctermfg=193 ctermbg=NONE cterm=NONE
-hi htmlunderline guifg=#d3bdcb guibg=#000000 guisp=#000000 gui=NONE ctermfg=182 ctermbg=NONE cterm=NONE
+hi htmlunderline guifg=#d3bdcb guibg=none guisp=#000000 gui=underline ctermfg=182 ctermbg=NONE cterm=underline
 hi htmllink guifg=#96b7e6 guibg=#000000 guisp=#000000 gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
 hi javascriptconditional guifg=#ffece5 guibg=NONE guisp=NONE gui=bold ctermfg=224 ctermbg=NONE cterm=bold
 hi xmlattribpunct guifg=#bccc95 guibg=NONE guisp=NONE gui=bold ctermfg=187 ctermbg=NONE cterm=bold
