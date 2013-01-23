@@ -148,14 +148,14 @@ hi cinclude guifg=#ffe5f7 guibg=NONE guisp=NONE gui=NONE ctermfg=225 ctermbg=NON
 hi menu guifg=#000000 guibg=#beabb8 guisp=#beabb8 gui=NONE ctermfg=NONE ctermbg=7 cterm=NONE
 hi scrollbar guifg=#a998a3 guibg=#a998a3 guisp=#a998a3 gui=NONE ctermfg=248 ctermbg=248 cterm=NONE
 "hi semicolon -- no settings --
-hi htmlitalic guifg=#000000 guibg=#78eea0 guisp=#78eea0 gui=NONE ctermfg=NONE ctermbg=121 cterm=NONE
-hi htmlboldunderlineitalic guifg=#96b7e6 guibg=#000000 guisp=#000000 gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
-hi htmlbolditalic guifg=#000000 guibg=#96b7e6 guisp=#96b7e6 gui=NONE ctermfg=NONE ctermbg=110 cterm=NONE
-hi htmlunderlineitalic guifg=#78eea0 guibg=#000000 guisp=#000000 gui=NONE ctermfg=121 ctermbg=NONE cterm=NONE
-hi htmlbold guifg=#000000 guibg=#d2fab5 guisp=#d2fab5 gui=NONE ctermfg=NONE ctermbg=193 cterm=NONE
-hi htmlboldunderline guifg=#d2fab5 guibg=#000000 guisp=#000000 gui=NONE ctermfg=193 ctermbg=NONE cterm=NONE
-hi htmlunderline guifg=#d3bdcb guibg=#000000 guisp=#000000 gui=NONE ctermfg=182 ctermbg=NONE cterm=NONE
-hi htmllink guifg=#96b7e6 guibg=#000000 guisp=#000000 gui=NONE ctermfg=110 ctermbg=NONE cterm=NONE
+hi htmlitalic gui=italic cterm=italic
+hi htmlboldunderlineitalic gui=bold,underline,italic cterm=bold,underline,italic
+hi htmlbolditalic gui=bold,italic cterm=bold,italic
+hi htmlunderlineitalic gui=underline,italic cterm=underline,italic
+hi htmlbold gui=bold cterm=bold
+hi htmlboldunderline gui=bold,underline cterm=bold,underline
+hi htmlunderline gui=underline cterm=underline
+hi htmllink guifg=#005fff gui=bold,underline ctermfg=27 cterm=bold,underline
 hi javascriptconditional guifg=#ffece5 guibg=NONE guisp=NONE gui=bold ctermfg=224 ctermbg=NONE cterm=bold
 hi xmlattribpunct guifg=#bccc95 guibg=NONE guisp=NONE gui=bold ctermfg=187 ctermbg=NONE cterm=bold
 hi javascriptfunction guifg=#ffe5eb guibg=NONE guisp=NONE gui=bold ctermfg=224 ctermbg=NONE cterm=bold
